@@ -50,7 +50,7 @@ Every turn is kept forever in `history/turns-YYYY-MM.jsonl` (what was heard, wha
 You need: a Mac that stays on, Node.js 18+, at least one Echo, and [Claude Code](https://claude.com/claude-code) installed and signed in (`claude` works in the terminal).
 
 ```bash
-git clone <this repo> && cd hey-claude
+git clone https://github.com/RioBuilds7/hey-claude-kit.git && cd hey-claude-kit
 npm install && (cd core/alexa && npm install)
 cp config.example.json config.json      # your device addresses (see below)
 cp CLAUDE.md.example CLAUDE.md          # household notes for Claude
