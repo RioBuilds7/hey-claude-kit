@@ -1,0 +1,19 @@
+# Hey Claude: household knowledge
+
+Notes the voice assistant reads at the start of every session. Keep it short. Claude adds to it when it learns something.
+Device instructions load on their own from `devices/*/device.md`, so they don't belong here.
+
+## Learnings
+- (Claude writes things it figures out here.)
+
+## Devices and rooms
+- (Which room each TV, speaker and Echo is in.)
+
+## Device nicknames
+- (Example: "the lamp" = the floor lamp in the living room.)
+
+## Netflix title ids (for `roku.sh netflix <id>`)
+- (Example: Black Mirror 70264888)
+
+## User preferences
+- (Language, how short replies should be, who lives here.)

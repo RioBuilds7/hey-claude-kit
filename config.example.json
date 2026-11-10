@@ -1,0 +1,31 @@
+{
+  "timezone": "America/New_York",
+  "claudeConfigDir": "",
+  "alexa": {
+    "amazonDomain": "amazon.com",
+    "alexaServiceHost": "pitangui.amazon.com",
+    "echoName": "",
+    "accounts": [
+      "default"
+    ]
+  },
+  "samsung": {
+    "name": "Samsung TV",
+    "ip": "YOUR_SAMSUNG_TV_IP",
+    "mac": "YOUR_SAMSUNG_TV_MAC"
+  },
+  "roku": {
+    "name": "Roku TV",
+    "ip": "YOUR_ROKU_IP"
+  },
+  "sonos": {
+    "name": "Sonos",
+    "ip": "YOUR_SONOS_IP"
+  },
+  "echoes": {
+    "Exact Echo Name From The Alexa App": {
+      "tv": "Roku TV",
+      "note": "bedroom"
+    }
+  }
+}

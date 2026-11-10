@@ -1,0 +1,28 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "claude",
+      "intents": [
+        { "name": "AMAZON.CancelIntent", "samples": [] },
+        { "name": "AMAZON.HelpIntent", "samples": [] },
+        { "name": "AMAZON.StopIntent", "samples": [] },
+        { "name": "AMAZON.NavigateHomeIntent", "samples": [] },
+        { "name": "AMAZON.FallbackIntent", "samples": [] },
+        {
+          "name": "CatchAllIntent",
+          "slots": [{ "name": "query", "type": "AMAZON.SearchQuery" }],
+          "samples": [
+            "to {query}", "please {query}", "can you {query}", "could you {query}", "turn {query}",
+            "open {query}", "play {query}", "put {query}", "show {query}", "launch {query}",
+            "start {query}", "set {query}", "switch {query}", "find {query}", "tell me {query}",
+            "what {query}", "what's {query}", "who {query}", "why {query}", "how {query}",
+            "when {query}", "where {query}", "is {query}", "are {query}", "do {query}",
+            "make {query}", "give me {query}", "i want {query}", "explain {query}", "pause {query}",
+            "lower {query}", "raise {query}", "mute {query}", "check {query}", "search {query}"
+          ]
+        }
+      ],
+      "types": []
+    }
+  }
+}
