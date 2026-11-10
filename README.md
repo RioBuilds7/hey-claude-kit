@@ -2,7 +2,7 @@
 
 **Talk to Claude through the Echos in your home.** Claude hears what was said, controls the TVs, speakers, lights and the Mac, and answers out loud.
 
-A starter kit to build your own. It grew out of [rg321/hey-claude](https://github.com/rg321/hey-claude) (MIT) with a rebuilt core, new device scripts and a private Alexa skill.
+A starter kit to build your own: an always-on core, device scripts and a private Alexa skill.
 
 ## How it works
 
@@ -29,7 +29,7 @@ What counts as "meant for Claude":
 | `devices/mac` | This Mac: volume, music, open apps and pages, lock, battery |
 | `devices/alexa-smarthome` | Lights and plugs that are set up in Alexa |
 | `devices/household` | Intercom between Echos, timers, lists, routines |
-| `devices-disabled` | Scripts from the original project we don't use |
+| `devices-disabled` | Extra device scripts that are switched off (LG TV, DVR camera, set-top box) |
 
 Each folder has a `device.md` that tells Claude how to use it. Add a folder with a `device.md` and Claude picks it up.
 
